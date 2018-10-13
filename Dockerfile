@@ -5,15 +5,7 @@ RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
     apt-get -y install \
-      bzip2 \
-      xz-utils \
-      apt-utils \
-      debconf \
-      software-properties-common \
       openjdk-8-jre-headless \
-      build-essential \
-      cmake \
-      rpm \
       libcap-dev \
       python-dev \
       gosu \
